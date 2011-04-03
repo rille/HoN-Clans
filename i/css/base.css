@@ -1,0 +1,57 @@
+body {
+	background-color: #666;
+	color: #EFC9A0;
+	font: 12px/1.5 Helvetica,Arial,Verdana,sans-serif;
+	background: url('../images/bg.jpg') repeat;
+}
+
+h1 {
+	color: #EFC9A0;
+	text-shadow: 0 -1px 0 #3C3C5C;
+}
+h2 {
+	color: #EFC9A0;
+	text-shadow: 0 -1px 0 #3C3C5C;
+}
+
+/**
+* Member card
+**/
+div.member-card p {
+	text-shadow: 0 -1px 0 #3C3C5C;
+}
+div.member-card h2 {
+	margin: 0px;
+}
+	div.member-card span {
+		font-size: 14px;
+		float: right;
+	}
+div.clan-members {
+	width: 1100px;
+	height: auto;
+}
+div.member-card {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+	margin: 20px 10px 10px 20px;
+	padding: 10px 20px;
+	box-shadow: 0 0 6px #963f21;
+	background: url('../images/user-card-bg.jpg');
+}
+	div.member-card img.avatar {
+		position: absolute;
+		top: -25px;
+		left: -25px;
+	}
+	
+/**
+* Utils
+**/
+
+div.clear {
+	clear: both;
+}
