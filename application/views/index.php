@@ -8,6 +8,18 @@
 <body>
 	<h1>HEY clan!</h1>
 	<div class="clan-members">
+		<ul>
+<?php foreach($matchNews as $match) : ?>
+		<li>Tm1_wins: <?php echo $match['tm1_wins']; ?></li>
+			<p>
+	<?php foreach($match['clan_part'] as $player) : ?>
+				<?php echo $player; ?>,
+	<?php endforeach ?>
+			just played a game!</p>
+		
+<?php endforeach ?>
+		</ul>
+
 		<?php foreach($stats as $clanmember) : ?>
 		<div class="member-card">
 			<img class="avatar" src="i/images/avatar-na.png" width="50" height="50"/>
@@ -30,5 +42,3 @@
 	<?php endforeach ?>
 	-->
 </body>
-
-<!-- LOLOL -->
